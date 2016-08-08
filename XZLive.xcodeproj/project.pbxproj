@@ -11,7 +11,6 @@
 		A3BE853F1D582EDB00796A0C /* XZLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3BE853D1D582EDB00796A0C /* XZLive.xcdatamodeld */; };
 		A3BE854F1D582EDB00796A0C /* XZLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE854E1D582EDB00796A0C /* XZLiveTests.swift */; };
 		A3BE855A1D582EDB00796A0C /* XZLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE85591D582EDB00796A0C /* XZLiveUITests.swift */; };
-		A3BE856C1D58338200796A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BE856A1D58338200796A0C /* Assets.xcassets */; };
 		A3BE856D1D58338200796A0C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3BE856B1D58338200796A0C /* Info.plist */; };
 		A3BE86181D5835D700796A0C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BE86171D5835D700796A0C /* libz.tbd */; };
 		A3BE867A1D585F7E00796A0C /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE861A1D585F7E00796A0C /* BaseCollectionViewController.swift */; };
@@ -83,6 +82,7 @@
 		A3BE86BC1D585F7E00796A0C /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE86771D585F7E00796A0C /* PopoverAnimator.swift */; };
 		A3BE86BD1D585F7E00796A0C /* PopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE86781D585F7E00796A0C /* PopoverPresentationController.swift */; };
 		A3BE86BE1D585F7E00796A0C /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE86791D585F7E00796A0C /* PushAnimator.swift */; };
+		A3BE86C01D58604D00796A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BE86BF1D58604D00796A0C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,7 +113,6 @@
 		A3BE85551D582EDB00796A0C /* XZLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BE85591D582EDB00796A0C /* XZLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZLiveUITests.swift; sourceTree = "<group>"; };
 		A3BE855B1D582EDB00796A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3BE856A1D58338200796A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3BE856B1D58338200796A0C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3BE86171D5835D700796A0C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A3BE861A1D585F7E00796A0C /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +184,7 @@
 		A3BE86771D585F7E00796A0C /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
 		A3BE86781D585F7E00796A0C /* PopoverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverPresentationController.swift; sourceTree = "<group>"; };
 		A3BE86791D585F7E00796A0C /* PushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
+		A3BE86BF1D58604D00796A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04125FE654FE04738E2D2F4 /* Pods-XZLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZLive/Pods-XZLive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,7 +300,7 @@
 		A3BE85691D58338200796A0C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A3BE856A1D58338200796A0C /* Assets.xcassets */,
+				A3BE86BF1D58604D00796A0C /* Assets.xcassets */,
 				A3BE856B1D58338200796A0C /* Info.plist */,
 			);
 			path = Resources;
@@ -714,8 +714,8 @@
 				A3BE867D1D585F7E00796A0C /* Home.storyboard in Resources */,
 				A3BE856D1D58338200796A0C /* Info.plist in Resources */,
 				A3BE868A1D585F7E00796A0C /* Me.storyboard in Resources */,
+				A3BE86C01D58604D00796A0C /* Assets.xcassets in Resources */,
 				A3BE868C1D585F7E00796A0C /* Live.storyboard in Resources */,
-				A3BE856C1D58338200796A0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
